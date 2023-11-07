@@ -7,6 +7,7 @@ export const Home = () => {
 		<div>
 			<p> Count: {count}</p>
 			<button onClick={increment}>Contador</button>
+			<button onClick={increment}>decrementar</button>
 		</div>
 	)
 }
